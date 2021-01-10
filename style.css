@@ -191,7 +191,7 @@ body{
 	justify-content: flex-end;
 }
 }
-@media (max-width: 700px){
+@media (max-width: 768px){
 	.dashboard{
 	grid-gap: 25px;
 	grid-template-columns: 1fr 1fr;
@@ -204,6 +204,8 @@ body{
 	margin-right: 5px;
 	margin-left: 5px;
 }
-
+.Title{
+	border-bottom: 2px solid white;
+}
 }
 
