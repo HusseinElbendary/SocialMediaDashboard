@@ -191,3 +191,19 @@ body{
 	justify-content: flex-end;
 }
 }
+@media (max-width: 700px){
+	.dashboard{
+	grid-gap: 25px;
+	grid-template-columns: 1fr 1fr;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+.overview{
+	grid-gap: 25px;
+	grid-template-columns: 1fr 1fr;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+}
+
