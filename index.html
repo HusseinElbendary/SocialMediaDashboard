@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+   
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+ 
+</head>
+<body>
+    <div class="pattern"></div>
+    <div class="container">
+      <div class="row header">
+        <section class="col col-xl-5 col-12 Title"><!-- 5 to be changed-->
+          <p id="TitleTop">Social Media Dashboard</p>
+          <p id="TitleBot">Total Followers: 23,004</p>
+        </section>
+        <section class="col col-xl-2 offset-xl-5 col-12 d-flex justify-content-end ">
+          <p class="theme">Dark Mode <img src="images/ellipse.svg" alt="switch" id="modeSwitch"></p> 
+        </section>
+      </div>
+
+      <div class="row dashboard">
+        <div class="dashboardZone facebook">
+          <div id="topColor"></div>
+          <div class="cardContent">
+            <p class="userTag"><img src="images/icon-facebook.svg" alt="facebook_icon">@nathanf</p>
+            <h1>1987</h1>
+            <h6>FOLLOWERS</h6>
+            <p class="UpChange"><img src="images/icon-up.svg" alt="icon-up">12 Today</p>
+          </div>
+        </div>
+
+        <div class="dashboardZone twitter">
+          <div id="topColor"></div>
+          <div class="cardContent">
+            <p class="userTag"><img src="images/icon-twitter.svg" alt="twitter_icon">@nathanf</p>
+            <h1>1044</h1>
+            <h6>FOLLOWERS</h6>
+            <p class="UpChange"><img src="images/icon-up.svg" alt="icon-up">99 Today</p>
+          </div>
+        </div>
+        <div class="dashboardZone instagram">
+          <div id="topColor"></div>
+            <div class="cardContent">
+              <p class="userTag"><img src="images/icon-instagram.svg" alt="instagram_icon">@realnathanf</p>
+              <h1>11k</h1>
+              <h6>FOLLOWERS</h6>
+              <p class="UpChange"><img src="images/icon-up.svg" alt="icon-up">1099 Today</p>
+            </div>
+          </div>
+
+        <div class="dashboardZone youtube">
+          <div id="topColor"></div>
+          <div class="cardContent">
+            <p class="userTag"><img src="images/icon-youtube.svg" alt="youtube_icon">Nathan F.</p>
+            <h1>8239</h1>
+            <h6>SUBSCRIBERS</h6>
+            <p class="DownChange"><img src="images/icon-down.svg" alt="icon-down">144 Today</p>
+          </div>
+        </div>
+
+      </div>
+      <section class="overviewHeader">Overview - Today</section>
+      <div class="row overview">
+        <div class="overviewZone">
+          <p class="overviewZoneText" >Page Views</p>
+          <img src="images/icon-facebook.svg"  alt="icon-down"><br>
+          <p class="overviewNumber overviewZoneText"> 87</p>
+          <p class="UpChange overviewZoneText"><img src="images/icon-up.svg" alt="icon-up">3%</p>
+
+        </div>
+
+
+        <div class="overviewZone ">
+          <p class="overviewZoneText">Likes</p>
+          <img src="images/icon-facebook.svg"  alt="icon-down" ><br>
+          <p class="overviewNumber overviewZoneText"> 52</p>
+          <p class="DownChange overviewZoneText"><img src="images/icon-down.svg" alt="icon-down" >2%</p>
+
+        </div>
+
+        <div class="overviewZone ">
+          <p class="overviewZoneText">Likes</p>
+          <img src="images/icon-instagram.svg"  alt="instagram_icon"><br>
+          <p class="overviewNumber overviewZoneText"> 5462</p>
+          <p class="UpChange overviewZoneText"><img src="images/icon-up.svg" alt="icon-up">2257%</p>
+        </div>
+
+        <div class="overviewZone ">
+          <p class="overviewZoneText">Profile Views</p>
+          <img src="images/icon-instagram.svg"  alt="instagram_icon"><br>
+          <p class="overviewNumber overviewZoneText"> 52K</p>
+          <p class="UpChange overviewZoneText"><img src="images/icon-up.svg" alt="icon-up">1375%</p>
+        </div>
+
+        <div class="overviewZone ">
+          <p class="overviewZoneText">Retweets</p>
+          <img src="images/icon-twitter.svg"  alt="twitter_icon"><br>
+          <p class="overviewNumber overviewZoneText"> 117</p>
+          <p class="UpChange overviewZoneText"><img src="images/icon-up.svg" alt="icon-up">303%</p>
+        </div>
+
+        <div class="overviewZone ">
+          <p class="overviewZoneText">Likes</p>
+          <img src="images/icon-twitter.svg"  alt="twitter_icon"><br>
+          <p class="overviewNumber overviewZoneText"> 507</p>
+          <p class="UpChange overviewZoneText "><img src="images/icon-up.svg" alt="icon-up">553%</p>
+        </div>
+
+        <div class="overviewZone ">
+          <p class="overviewZoneText">Likes</p>
+          <img src="images/icon-youtube.svg"  alt="youtube_icon"><br>
+          <p class="overviewNumber overviewZoneText"> 107</p>
+          <p class="DownChange overviewZoneText"><img src="images/icon-down.svg" alt="icon-down">19%</p>
+        </div>
+
+        <div class="overviewZone ">
+          <p class="overviewZoneText">Total Views</p>
+          <img src="images/icon-youtube.svg"  alt="youtube_icon"><br>
+          <p class="overviewNumber overviewZoneText"> 1407</p>
+          <p class="DownChange overviewZoneText"><img src="images/icon-down.svg" alt="icon-down">12%</p>
+        </div>
+
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src=" script.js"></script>
+</body>
+</html>
